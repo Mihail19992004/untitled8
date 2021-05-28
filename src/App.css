@@ -39,29 +39,34 @@ header a {
     margin-right: 10px;
 }
 .content-main {
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    padding: 30px 20px;
     min-height: 400px;
     background: wheat;
 }
 .text-content {
+    margin-right: 30px;
     width: 70%;
-    height: 70%;
+    height: 100%;
+    min-height: 350px;
     background: whitesmoke;
 }
 .img_content{
     margin: 50px;
-    background: whitesmoke;
-    height: 70%;
-    width: 30%;
+
+    height: 100%;
+    min-height: 350px;
+    width: 25%;
 
 }
 .img_content img {
     border-radius: 8px;
-    width: 100%;
+    min-height: 350px;
     height: 100%;
 }
 ul{
@@ -72,7 +77,7 @@ ul{
     text-align: center;
     display: flex;
     align-items: flex-start;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 .content-main li {
     margin-right: 15px;
@@ -87,4 +92,18 @@ ul{
     font-size: 27px;
     font-weight: bold;
     text-align: center;
+}
+.content-in {
+    display: flex;
+    flex-flow: row wrap;
+}
+.ingred {
+    width: 50%;
+    background: grey;
+}
+.description {
+    display: flex;
+    flex-flow: row;
+    width: 50%;
+
 }
